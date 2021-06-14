@@ -1,0 +1,73 @@
+module S3(DataIn,DataOut);
+    input [5:0] DataIn;
+    output [3:0] DataOut;
+    always(*) 
+        case (DataIn)
+            0 : DataOut = 10;
+            1 : DataOut = 13;
+            2 : DataOut = 0;
+            3 : DataOut = 7;
+            4 : DataOut = 9;
+            5 : DataOut = 0;
+            6 : DataOut = 14;
+            7 : DataOut = 9;
+            8 : DataOut = 6;
+            9 : DataOut = 3;
+            10 : DataOut = 3;
+            11 : DataOut = 4;
+            12 : DataOut = 15;
+            13 : DataOut = 6;
+            14 : DataOut = 5;
+            15 : DataOut = 10;
+            16 : DataOut = 1;
+            17 : DataOut = 2;
+            18 : DataOut = 13;
+            19 : DataOut = 8;
+            20 : DataOut = 12;
+            21 : DataOut = 5;
+            22 : DataOut = 7;
+            23 : DataOut = 14;
+            24 : DataOut = 11;
+            25 : DataOut = 12;
+            26 : DataOut = 4;
+            27 : DataOut = 11;
+            28 : DataOut = 2;
+            29 : DataOut = 15;
+            30 : DataOut = 8;
+            31 : DataOut = 1;
+            32 : DataOut = 13;
+            33 : DataOut = 1;
+            34 : DataOut = 6;
+            35 : DataOut = 10;
+            36 : DataOut = 4;
+            37 : DataOut = 13;
+            38 : DataOut = 9;
+            39 : DataOut = 0;
+            40 : DataOut = 8;
+            41 : DataOut = 6;
+            42 : DataOut = 15;
+            43 : DataOut = 9;
+            44 : DataOut = 3;
+            45 : DataOut = 8;
+            46 : DataOut = 0;
+            47 : DataOut = 7;
+            48 : DataOut = 11;
+            49 : DataOut = 4;
+            50 : DataOut = 1;
+            51 : DataOut = 15;
+            52 : DataOut = 2;
+            53 : DataOut = 14;
+            54 : DataOut = 12;
+            55 : DataOut = 3;
+            56 : DataOut = 5;
+            57 : DataOut = 11;
+            58 : DataOut = 10;
+            59 : DataOut = 5;
+            60 : DataOut = 14;
+            61 : DataOut = 2;
+            62 : DataOut = 7;
+            63 : DataOut = 12;
+        endcase
+    end
+
+endmodule

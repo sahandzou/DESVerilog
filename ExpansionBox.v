@@ -1,0 +1,55 @@
+module ExpansionBox(DataIn,DataOut);
+    input [31:0] DataIn;
+    output [47:0] DataOut;
+
+    assign DataOut[0]=DataIn[31];
+    assign DataOut[1]=DataIn[0];
+    assign DataOut[2]=DataIn[1];
+    assign DataOut[3]=DataIn[2];
+    assign DataOut[4]=DataIn[3];
+    assign DataOut[5]=DataIn[4];
+    assign DataOut[6]=DataIn[3];
+    assign DataOut[7]=DataIn[4];
+    assign DataOut[8]=DataIn[5];
+    assign DataOut[9]=DataIn[6];
+    assign DataOut[10]=DataIn[7];
+    assign DataOut[11]=DataIn[8];
+    assign DataOut[12]=DataIn[7];
+    assign DataOut[13]=DataIn[8];
+    assign DataOut[14]=DataIn[9];
+    assign DataOut[15]=DataIn[10];
+    assign DataOut[16]=DataIn[11];
+    assign DataOut[17]=DataIn[12];
+    assign DataOut[18]=DataIn[11];
+    assign DataOut[19]=DataIn[12];
+    assign DataOut[20]=DataIn[13];
+    assign DataOut[21]=DataIn[14];
+    assign DataOut[22]=DataIn[15];
+    assign DataOut[23]=DataIn[16];
+    assign DataOut[24]=DataIn[15];
+    assign DataOut[25]=DataIn[16];
+    assign DataOut[26]=DataIn[17];
+    assign DataOut[27]=DataIn[18];
+    assign DataOut[28]=DataIn[19];
+    assign DataOut[29]=DataIn[20];
+    assign DataOut[30]=DataIn[19];
+    assign DataOut[31]=DataIn[20];
+    assign DataOut[32]=DataIn[21];
+    assign DataOut[33]=DataIn[22];
+    assign DataOut[34]=DataIn[23];
+    assign DataOut[35]=DataIn[24];
+    assign DataOut[36]=DataIn[23];
+    assign DataOut[37]=DataIn[24];
+    assign DataOut[38]=DataIn[25];
+    assign DataOut[39]=DataIn[26];
+    assign DataOut[40]=DataIn[27];
+    assign DataOut[41]=DataIn[28];
+    assign DataOut[42]=DataIn[27];
+    assign DataOut[43]=DataIn[28];
+    assign DataOut[44]=DataIn[29];
+    assign DataOut[45]=DataIn[30];
+    assign DataOut[46]=DataIn[31];
+    assign DataOut[47]=DataIn[0];
+
+
+endmodule
