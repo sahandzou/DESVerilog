@@ -4,7 +4,7 @@ module S8(DataIn,DataOut);
     always@(*) begin
         case (DataIn)
             0 : DataOut = 13;
-				1 : DataOut = 1;
+			1 : DataOut = 1;
             2 : DataOut = 2;
             3 : DataOut = 15;
             4 : DataOut = 8;
@@ -13,7 +13,7 @@ module S8(DataIn,DataOut);
             7 : DataOut = 8;
             8 : DataOut = 6;
             9 : DataOut = 10;
-				10 : DataOut = 15;
+			10 : DataOut = 15;
             11 : DataOut = 3;
             12 : DataOut = 11;
             13 : DataOut = 7;
