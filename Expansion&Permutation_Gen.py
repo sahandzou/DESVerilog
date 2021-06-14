@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-input_file="Permutation_fFunction.txt"
+input_file="RIP.txt"
 with open(input_file,'r') as f:
     Data=f.read()
 P=list(map(int,Data.split()))
