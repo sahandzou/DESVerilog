@@ -34,4 +34,4 @@ module PermutationfFunction(DataIn,DataOut);
     assign DataOut[30]=DataIn[3];
     assign DataOut[31]=DataIn[24];
 
-endmoudle
+endmodule

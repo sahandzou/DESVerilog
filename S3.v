@@ -1,7 +1,7 @@
 module S3(DataIn,DataOut);
     input [5:0] DataIn;
-    output [3:0] DataOut;
-    always(*) 
+    output reg[3:0] DataOut;
+    always@(*) begin
         case (DataIn)
             0 : DataOut = 10;
             1 : DataOut = 13;
